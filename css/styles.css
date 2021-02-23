@@ -136,6 +136,12 @@
 .about-rv{
     margin-bottom: 2rem;
 }
+@element iframe {
+  $this {
+    width: 100%;
+    height: calc(100ew / eval("width/height"));
+  }
+}
   /* FOOTER SECTION */
 .footer-section {
 
@@ -191,6 +197,7 @@
     .flip-box{
       margin-bottom: 1rem;
     }
+
     .brand-icon{
         width: 4rem !important;
         height: 4rem !important;
