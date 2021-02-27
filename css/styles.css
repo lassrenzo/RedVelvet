@@ -24,10 +24,10 @@
   }
   
    /*MAIN FONTS STYLING*/
-.main-title {
+.mainTitle {
     font-size: 3rem;
   }
-  .main-subtitle{
+  .mainSubtitle{
     font-size: 1.5rem; 
     margin: 5% 0 3%;
   }
@@ -43,20 +43,20 @@
      font-size: 1.2rem;
    }
  /* MAIN BTNS */
- .main-button {
+ .mainButton {
     margin: 5% 3% 3% 0;
   }
   /* MAIN SECTION */
-  .main-section {
+  .mainSection {
     text-align: left;
   }
 
   /* MAIN IMG */
-    .main-img{
+    .mainImg{
       width: 100%;
       margin-left: 1rem;
   }
-  .brand-icon {
+  .brandIcon {
     width: 6rem;
   }
   /* MEMBER SECTION */
@@ -113,27 +113,27 @@
 .myDescription{
     text-align: center;
 }
-.member-title{
+.memberTitle{
     margin-bottom: 3rem;
 }
   /* ABOUT SECTION */
-.about-title{
+.aboutTitle{
     font-weight:600;
     font-size: 30px;
 }
-.about-info{
+.aboutInfo{
     font-size: 20px;
 }
-.about-img{
+.aboutImg{
     height: 300px;
     width: 300px;
-    border-radius: 100px;
+    border-radius: 50%;
     overflow:hidden;
 }
-.about-subtitle{
+.aboutSubtitle{
     font-size: 30px;
 }
-.about-rv{
+.aboutRv{
     margin-bottom: 2rem;
 }
 @element iframe {
@@ -143,19 +143,16 @@
   }
 }
   /* FOOTER SECTION */
-.footer-section {
+.footerSection {
 
      text-align: center;     
    }
-   .footer-icon {
+   .footerIcon {
      margin: 10px 10px;
    }
-     .footer-section :hover {
+     .footerSection :hover {
        text-decoration: none; 
      }
-   .footer-img {
-     width: 10%;
-   }
 
    /*SCROLL TO THE TOP STYLING*/
 #btn {
@@ -182,12 +179,12 @@
     body {
       text-align: center;      
     }
-    .section-title{
+    .sectionTitle{
       width: 100%;
       /*top right bottom left */ 
       padding: 5% 0 5% 0;
     }
-    .main-img {
+    .mainImg {
         margin-top: 5%; 
         margin-left: 0;
     }
@@ -201,9 +198,8 @@
       width: 300px;
       height: 300px;
     }
-    .brand-icon{
+    .brandIcon{
         width: 4rem !important;
         height: 4rem !important;
       }
     }
-
