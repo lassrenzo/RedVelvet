@@ -125,16 +125,23 @@
     font-size: 20px;
 }
 .aboutImg{
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     border-radius: 50%;
-    overflow:hidden;
 }
 .aboutSubtitle{
     font-size: 30px;
 }
 .aboutRv{
     margin-bottom: 2rem;
+}
+.aboutButton{
+  margin-top: 1rem;
+}
+.modalImg {
+height: 350px;
+width: 350px;
+margin-bottom: 3%;
 }
 @element iframe {
   $this {
